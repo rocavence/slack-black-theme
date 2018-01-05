@@ -968,7 +968,7 @@ select {
 }
 #fs_modal.prefs_modal .global_notification_block.selected {
    background: transparent;
-   border: 1px solid var(border-bright);
+   border: 1px solid #333333;
 }
 .notification_example.mac {
   color: #555459; /* default color - leave unthemed */
@@ -979,5 +979,5 @@ ts-jumper, ts-jumper.active {
   background-color: rgba(32,32,32,0.6);
 }
 ts-jumper ts-jumper-container {
-  box-shadow: 0 5px 20px rgba(255,255,255,1);
+  box-shadow: 0 5px 20px rgba(0,0,0,1);
 }
