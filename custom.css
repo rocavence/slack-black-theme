@@ -1,6 +1,6 @@
   body
   {
-    background: #222;
+    background: #2D2F38;
     color: #e6e6e6;
   }
 
@@ -6530,13 +6530,11 @@
   .sidebar_menu_list_item
   {
     border: 0;
-    color: #e6e6e6;
   }
 
   .sidebar_menu_list_item.is_active
   {
     background-color: #000;
-    color: #e6e6e6;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
   }
 
@@ -10016,4 +10014,8 @@ comments
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active
 {
   filter: grayscale(2) brightness(2);
+}
+
+.client_main_container {
+  shadow: none;
 }
